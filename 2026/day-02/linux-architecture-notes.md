@@ -1,4 +1,4 @@
-# Day 02 – Linux Architecture, Processes, systemd (caveman edition)
+# Day 02 – Linux Architecture, Processes, systemd 
 
 ## Origin
 1991. Linus Torvalds hate MINIX + MS-DOS limits. Build own Unix-like OS for 80386 PC. Make open-source → code free, anyone read/change/modify any file.
