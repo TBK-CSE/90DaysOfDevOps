@@ -8,6 +8,20 @@ Run a focused troubleshooting drill on a target service, capture a health snapsh
 
 ---
 
+## Environment Basics
+
+**`uname -a`**
+Shows system kernel details.
+
+![uname -a output](https://github.com/user-attachments/assets/62d82afd-b387-4caa-8de9-d26052ee1d91)
+
+**`cat /etc/os-release`**
+Shows OS-related information.
+
+![cat /etc/os-release output](https://github.com/user-attachments/assets/e9329f9e-0e7c-47ff-9436-cf200601d9b0)
+
+---
+
 ## Filesystem Sanity Check
 
 **`mkdir /tmp/runbook-demo_1 && cp /etc/hosts /tmp/runbook-demo_1/hosts-copy && ls -l /tmp/runbook-demo_1`**
