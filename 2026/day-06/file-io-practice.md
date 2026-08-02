@@ -31,3 +31,7 @@ Practicing file commands
 Practicing file commands
 DevOps journey Day 06
 ```
+
+Output Screenshot :   <img width="975" height="427" alt="image" src="https://github.com/user-attachments/assets/582c5b96-157f-463a-8db8-4440e851ea2a" />
+
+
