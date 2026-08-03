@@ -20,7 +20,8 @@ Deploy a real web server on the cloud and practice hands-on server management.
 
 **Step 2:** Connect via SSH.
 
-*[screenshot: SSH connection]*
+*<img width="1228" height="609" alt="image" src="https://github.com/user-attachments/assets/28a16cc6-cb3f-4269-9d97-8064a9c99b4e" />
+*
 
 ---
 
@@ -33,8 +34,9 @@ Deploy a real web server on the cloud and practice hands-on server management.
 
 **Verify Nginx is running:**
 
-*[screenshot: Nginx status check]*
-*[screenshot: Nginx service verification]*
+*<img width="1015" height="319" alt="image" src="https://github.com/user-attachments/assets/c12f6ded-7704-4f42-bd7e-d35873a9fee9" />
+*
+
 
 ---
 
@@ -43,7 +45,8 @@ Deploy a real web server on the cloud and practice hands-on server management.
 
 **Test web access:** Open a browser and visit `http://<your-instance-ip>` — you should see the Nginx welcome page.
 
-*[screenshot: Nginx welcome page in browser]*
+*<img width="1601" height="1042" alt="image" src="https://github.com/user-attachments/assets/f33fc121-462a-4bad-a969-3ae32a8bd19c" />
+*
 
 ---
 
@@ -51,10 +54,13 @@ Deploy a real web server on the cloud and practice hands-on server management.
 *(~15 min)*
 
 **Step 1:** View Nginx logs.
+<img width="1320" height="265" alt="image" src="https://github.com/user-attachments/assets/5e8903f6-bdde-46df-bdaa-6c8cd07951a0" />
 
 **Step 2:** Save logs to a file.
+<img width="1428" height="736" alt="image" src="https://github.com/user-attachments/assets/d8e34c76-9ab3-4f89-9405-cac030c4ae14" />
+
 
 **Step 3:** Download the log file to your local machine.
 
-*[screenshot: log file saved]*
-*[screenshot: log file downloaded]*
+*<img width="1850" height="524" alt="image" src="https://github.com/user-attachments/assets/89ad7dd2-3764-4997-b926-73e0d8c5b9f5" />
+*
