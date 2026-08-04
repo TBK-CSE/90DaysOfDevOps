@@ -19,10 +19,12 @@ sudo useradd -m berlin
 sudo useradd -m professor
 ```
 `-m` creates the home directory (e.g. `/home/tokyo`) for the mentioned user.
+<img width="1089" height="859" alt="image" src="https://github.com/user-attachments/assets/a228cd8a-0beb-47d9-b69a-0ed322e77ca5" />
 
 **Setting passwords:**
 
-*[screenshot: password setup]*
+<img width="605" height="150" alt="image" src="https://github.com/user-attachments/assets/43a0f7de-f8ef-4952-afec-d437fe89116e" />
+
 
 **Verification:**
 ```
@@ -57,8 +59,10 @@ Assignments:
 - `professor` → admins
 
 **Commands used:**
+<img width="858" height="76" alt="image" src="https://github.com/user-attachments/assets/29f4eb9b-ce6c-42dc-b4f5-767a5f6d5a3e" />
+<img width="285" height="35" alt="image" src="https://github.com/user-attachments/assets/297cc68d-42a7-422d-abc5-3c4abfab9972" />
 
-*[screenshot: group assignment commands]*
+
 
 Verified using the appropriate group-membership check command.
 
@@ -73,7 +77,8 @@ Verified using the appropriate group-membership check command.
 
 **Commands used:**
 
-*[screenshot: shared directory setup and permission test]*
+<img width="790" height="466" alt="image" src="https://github.com/user-attachments/assets/2b5219bf-1409-4e8a-b39a-8c344d63db73" />
+
 
 ---
 
@@ -88,8 +93,8 @@ Verified using the appropriate group-membership check command.
 - Test by creating a file as `nairobi`
 
 **Commands used:**
+<img width="704" height="202" alt="image" src="https://github.com/user-attachments/assets/ed059984-ebc9-4734-b91a-d42c4817397d" />
 
-*[screenshot: team workspace setup and file creation test]*
 
 ---
 
