@@ -28,11 +28,16 @@ echo "My DevOps notes" > notes.txt
 vim script.sh
 # Add content: echo "Hello DevOps"
 ```
+<img width="864" height="115" alt="image" src="https://github.com/user-attachments/assets/086a2fde-a800-4f6c-9157-892ca153c5e6" />
+<img width="534" height="155" alt="image" src="https://github.com/user-attachments/assets/d8a92ef9-840c-4830-852e-f55ed69d6cfe" />
+
 
 **Verification:**
 ```bash
 ls -l
 ```
+<img width="695" height="384" alt="image" src="https://github.com/user-attachments/assets/3ce6b1b7-4ee2-4fe0-a41e-fe35d4a5f666" />
+
 
 **Output Format:**
 ```
@@ -62,6 +67,7 @@ head -5 /etc/passwd
 # Display last 5 lines of a system file
 tail -5 /etc/passwd
 ```
+<img width="508" height="243" alt="image" src="https://github.com/user-attachments/assets/5ad67e97-08b4-4f31-997a-a1221b51252b" />
 
 ---
 
@@ -187,7 +193,15 @@ echo "test" >> devops.txt
 ```bash
 ./script.sh
 # Expected Output: Hello DevOps
-```
+```<img width="584" height="126" alt="image" src="https://github.com/user-attachments/assets/19c9d038-f234-4d70-a943-448d344b269a" />
+<img width="538" height="89" alt="image" src="https://github.com/user-attachments/assets/773c9ca6-cc54-4165-baab-0d84f8de4320" />
+
+<img width="521" height="85" alt="image" src="https://github.com/user-attachments/assets/8c66383f-2f7b-477a-825d-958ec237bae0" />
+<img width="914" height="455" alt="image" src="https://github.com/user-attachments/assets/2f1b7300-167a-4519-ba79-8482a91703db" />
+<img width="914" height="455" alt="image" src="https://github.com/user-attachments/assets/5250aa01-facd-47a6-8a10-526d7cdf641a" />
+
+
+
 
 **Key Insight:**
 Permissions control whether operations are allowed. Without appropriate permissions, the system denies access regardless of file content.
