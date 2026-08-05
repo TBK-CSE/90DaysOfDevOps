@@ -193,12 +193,7 @@ echo "test" >> devops.txt
 ```bash
 ./script.sh
 # Expected Output: Hello DevOps
-```<img width="584" height="126" alt="image" src="https://github.com/user-attachments/assets/19c9d038-f234-4d70-a943-448d344b269a" />
-<img width="538" height="89" alt="image" src="https://github.com/user-attachments/assets/773c9ca6-cc54-4165-baab-0d84f8de4320" />
-
-<img width="521" height="85" alt="image" src="https://github.com/user-attachments/assets/8c66383f-2f7b-477a-825d-958ec237bae0" />
-<img width="914" height="455" alt="image" src="https://github.com/user-attachments/assets/2f1b7300-167a-4519-ba79-8482a91703db" />
-<img width="914" height="455" alt="image" src="https://github.com/user-attachments/assets/5250aa01-facd-47a6-8a10-526d7cdf641a" />
+```
 
 
 
@@ -207,7 +202,12 @@ echo "test" >> devops.txt
 Permissions control whether operations are allowed. Without appropriate permissions, the system denies access regardless of file content.
 
 ---
+<img width="584" height="126" alt="image" src="https://github.com/user-attachments/assets/19c9d038-f234-4d70-a943-448d344b269a" />
+<img width="538" height="89" alt="image" src="https://github.com/user-attachments/assets/773c9ca6-cc54-4165-baab-0d84f8de4320" />
 
+<img width="521" height="85" alt="image" src="https://github.com/user-attachments/assets/8c66383f-2f7b-477a-825d-958ec237bae0" />
+<img width="914" height="455" alt="image" src="https://github.com/user-attachments/assets/2f1b7300-167a-4519-ba79-8482a91703db" />
+<img width="914" height="455" alt="image" src="https://github.com/user-attachments/assets/5250aa01-facd-47a6-8a10-526d7cdf641a" />
 ## Summary
 
 ### Files Created
