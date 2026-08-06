@@ -20,7 +20,8 @@ Master file and directory ownership in Linux.
 - **Owner** → who controls the file
 - **Group** → shared access for a pool of users
 
-*[screenshot: ls -l ownership output]*
+<img width="676" height="203" alt="image" src="https://github.com/user-attachments/assets/0bd9b550-c7a1-430a-a324-9dac134be964" />
+
 
 ---
 
@@ -31,8 +32,11 @@ Master file and directory ownership in Linux.
 - Change owner to `tokyo` (create user if needed)
 - Change owner to `berlin`
 - Verify the changes
+<img width="578" height="246" alt="image" src="https://github.com/user-attachments/assets/685b66e1-2f5e-4c07-a3ab-a85547ad2840" />
+<img width="584" height="288" alt="image" src="https://github.com/user-attachments/assets/97ef47e2-e5f2-48ee-a1b8-50a2985434ab" />
+<img width="558" height="78" alt="image" src="https://github.com/user-attachments/assets/8cd8c513-f4c6-4bc6-99f8-35528d89d418" />
 
-*[screenshot: chown operations]*
+
 
 ---
 
@@ -44,7 +48,9 @@ Master file and directory ownership in Linux.
 - Change file group to `heist-team`
 - Verify the change
 
-*[screenshot: chgrp operations]*
+<img width="531" height="92" alt="image" src="https://github.com/user-attachments/assets/e3dcc055-94b6-4f68-9761-d0edbd2ea3f6" />
+<img width="1186" height="127" alt="image" src="https://github.com/user-attachments/assets/3501e2e8-a905-4ffe-99f6-4ee2362f1d4b" />
+
 
 ---
 
@@ -54,8 +60,11 @@ Master file and directory ownership in Linux.
 
 - Create `project-config.yaml`, change owner to `professor` and group to `heist-team` (single command)
 - Create directory `app-logs/`, change owner to `berlin` and group to `heist-team`
+<img width="727" height="368" alt="image" src="https://github.com/user-attachments/assets/27005c45-5db1-4c69-9469-a273dd4e85a0" />c
+<img width="607" height="110" alt="image" src="https://github.com/user-attachments/assets/3ecb379b-275c-497d-8e9d-8b9c8c760f8b" />
 
-*[screenshot: combined chown operations]*
+
+
 
 ---
 
@@ -75,8 +84,8 @@ sudo groupadd planners
   - Group: `planners`
   - Use recursive flag (`-R`)
 - Verify: `ls -lR heist-project/`
+<img width="1650" height="529" alt="image" src="https://github.com/user-attachments/assets/62b95462-0607-4020-85ef-a40392b28139" />
 
-*[screenshot: recursive ownership change]*
 
 ---
 
@@ -95,8 +104,8 @@ sudo groupadd planners
   - `blueprints.pdf` → owner: `berlin`, group: `tech-team`
   - `escape-plan.txt` → owner: `nairobi`, group: `vault-team`
 - Verify: `ls -l bank-heist/`
+<img width="882" height="755" alt="image" src="https://github.com/user-attachments/assets/6342e980-7c7a-4d10-bae0-610fd0f30c29" />
 
-*[screenshot: final ownership verification]*
 
 ---
 
