@@ -45,7 +45,9 @@ Get comfortable with core networking concepts and the commands you'll actually r
 
 **Example:** `curl https://google.com` → HTTP over TCP over IP
 
-*[screenshot: OSI/TCP-IP layer mapping]*
+<img width="1849" height="352" alt="image" src="https://github.com/user-attachments/assets/a59099ff-bc87-441f-91f2-b18cf6a9e83b" />
+
+
 
 ---
 
@@ -65,11 +67,17 @@ Run each, with a short observation:
 
 Pick one target service/host (e.g. `google.com`, a lab server, or a local service) and stick with it for ping/traceroute/curl where possible.
 
-*[screenshot: identity + reachability check]*
-*[screenshot: path trace]*
-*[screenshot: listening ports]*
-*[screenshot: name resolution]*
-*[screenshot: HTTP check / connections snapshot]*
+<img width="808" height="327" alt="image" src="https://github.com/user-attachments/assets/58374545-bd3d-42cc-8dcc-c48cf41ddbda" />
+
+<img width="1263" height="337" alt="image" src="https://github.com/user-attachments/assets/64455ab2-a155-4ebd-a0b3-0cb6261760f8" />
+
+<img width="710" height="242" alt="image" src="https://github.com/user-attachments/assets/62d2bbbc-3d81-4649-a91e-c4373b4921d4" />
+
+<img width="664" height="830" alt="image" src="https://github.com/user-attachments/assets/f18795b6-cd05-419c-995e-aa864ff2681b" />
+
+<img width="1849" height="352" alt="image" src="https://github.com/user-attachments/assets/960344a4-7b6d-402f-938e-32ecd1f2fa14" />
+
+<img width="742" height="247" alt="image" src="https://github.com/user-attachments/assets/10f62fcb-1ea3-4ec5-b73b-05552f7a1b72" />
 
 ---
 
@@ -78,9 +86,8 @@ Pick one target service/host (e.g. `google.com`, a lab server, or a local servic
 1. Identify one listening port from `ss -tulpn` (e.g. SSH on 22, or a local web app)
 2. Test it from the same machine: `nc -zv localhost <port>` (or `curl -I http://localhost:<port>`)
 3. Note: is it reachable? If not, what's the next check (service status, firewall, etc.)?
+<img width="750" height="433" alt="image" src="https://github.com/user-attachments/assets/29d88491-e280-4905-8ec9-daddcebdd200" />
 
-*[screenshot: port probe test]*
-*[screenshot: port probe interpretation]*
 
 ---
 
