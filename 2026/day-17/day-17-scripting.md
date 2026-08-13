@@ -15,11 +15,9 @@ Level up scripting skills — loops, command-line arguments, and error handling.
 
 1. `for_loop.sh` — loops through a list of 5 fruits and prints each one
 2. `count.sh` — prints numbers 1 to 10 using a for loop
+<img width="673" height="296" alt="image" src="https://github.com/user-attachments/assets/7108b697-ba82-479e-acab-190eeffd159e" />
+<img width="503" height="257" alt="image" src="https://github.com/user-attachments/assets/541deed1-fe12-4364-a810-08cd589b4175" />
 
-*[screenshot: for_loop.sh script]*
-*[screenshot: for_loop.sh output]*
-*[screenshot: count.sh script]*
-*[screenshot: count.sh output]*
 
 ---
 
@@ -30,8 +28,8 @@ Level up scripting skills — loops, command-line arguments, and error handling.
 - Counts down to 0 using a while loop
 - Prints "Done!" at the end
 
-*[screenshot: countdown.sh script]*
-*[screenshot: countdown.sh output]*
+<img width="575" height="470" alt="image" src="https://github.com/user-attachments/assets/213da7f1-3597-4274-bd61-95e6691e428e" />
+
 
 ---
 
@@ -46,10 +44,10 @@ Level up scripting skills — loops, command-line arguments, and error handling.
    - Prints all arguments (`$@`)
    - Prints the script name (`$0`)
 
-*[screenshot: greet.sh script]*
-*[screenshot: greet.sh output]*
-*[screenshot: args_demo.sh script]*
-*[screenshot: args_demo.sh output]*
+<img width="464" height="173" alt="image" src="https://github.com/user-attachments/assets/62f35b50-cfae-4889-bab9-39f874a3eb3d" />
+
+<img width="929" height="308" alt="image" src="https://github.com/user-attachments/assets/4eff1947-c918-426f-8ba4-3e0ad6abe96a" />
+
 
 ---
 
@@ -64,10 +62,9 @@ Level up scripting skills — loops, command-line arguments, and error handling.
 
 > Run as root: `sudo -i` or `sudo su`
 
-*[screenshot: install_packages.sh script]*
-*[screenshot: install_packages.sh output]*
+<img width="630" height="382" alt="image" src="https://github.com/user-attachments/assets/dfc81295-4a54-466d-8b13-75df5fdf18be" />
 
-**Bug found:** the `if` condition used `$pkg` instead of `$pkgs` — fixed.
+
 
 ---
 
@@ -84,13 +81,12 @@ Example:
 ```bash
 mkdir /tmp/devops-test || echo "Directory already exists"
 ```
+<img width="813" height="276" alt="image" src="https://github.com/user-attachments/assets/e6e4bc3f-262e-454b-8eee-b11da519e96f" />
 
 **2.** Modified `install_packages.sh` to check if it's being run as root — exits with a message if not.
+<img width="790" height="440" alt="image" src="https://github.com/user-attachments/assets/446528cb-d93a-464c-84e2-4de12bdb1cb1" />
 
-*[screenshot: safe_script.sh script]*
-*[screenshot: safe_script.sh output]*
-*[screenshot: install_packages.sh root check]*
-*[screenshot: root check output]*
+
 
 ---
 
