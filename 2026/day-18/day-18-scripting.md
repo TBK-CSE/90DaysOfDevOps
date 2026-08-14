@@ -17,9 +17,8 @@ Write cleaner, reusable scripts — functions, strict mode, and real-world patte
 - Function `greet` — takes a name, prints `Hello, <name>!`
 - Function `add` — takes two numbers, prints their sum
 - Both functions called from the script
+<img width="647" height="396" alt="image" src="https://github.com/user-attachments/assets/f97dab7e-8604-46c5-a78b-015bf88cbe04" />
 
-*[screenshot: functions.sh script]*
-*[screenshot: functions.sh output]*
 
 ---
 
@@ -30,8 +29,8 @@ Write cleaner, reusable scripts — functions, strict mode, and real-world patte
 - Function `check_memory` — checks free memory using `free -h`
 - Main section calls both and prints results
 
-*[screenshot: disk_check.sh script]*
-*[screenshot: disk_check.sh output]*
+<img width="913" height="519" alt="image" src="https://github.com/user-attachments/assets/9e57b689-a052-4de4-9634-5bc3a61a5747" />
+
 
 ---
 
@@ -42,7 +41,8 @@ Write cleaner, reusable scripts — functions, strict mode, and real-world patte
 - A **failing command** (`set -e` behavior)
 - A **piped command** where one part fails (`set -o pipefail` behavior)
 
-*[screenshot: strict_demo.sh script and test results]*
+<img width="764" height="320" alt="image" src="https://github.com/user-attachments/assets/9af15d99-d6cb-46c6-a9bd-c0e9169d78e3" />
+
 
 **What each flag does:**
 - `set -e` → exit immediately if any command fails
@@ -58,8 +58,8 @@ Write cleaner, reusable scripts — functions, strict mode, and real-world patte
 - Demonstrates that `local` variables don't leak outside the function
 - Compared against a function using regular (global) variables
 
-*[screenshot: local_demo.sh script]*
-*[screenshot: local_demo.sh output]*
+<img width="608" height="338" alt="image" src="https://github.com/user-attachments/assets/94abded0-3003-4880-8c8c-af737f2a54ec" />
+
 
 ---
 
@@ -73,9 +73,9 @@ Write cleaner, reusable scripts — functions, strict mode, and real-world patte
 5. Print top 5 CPU-consuming processes
 6. `main` function calling all of the above, with section headers
 7. `set -euo pipefail` at the top for safety
+<img width="1200" height="743" alt="image" src="https://github.com/user-attachments/assets/0b27fd56-2dc0-442d-9a7c-b8e72d7bcc21" />
+<img width="1009" height="861" alt="image" src="https://github.com/user-attachments/assets/001e5d7a-3a4c-42ca-84ea-ce29ac66f7a1" />
 
-*[screenshot: system_info.sh script]*
-*[screenshot: system_info.sh output]*
 
 ---
 
