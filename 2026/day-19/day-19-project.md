@@ -18,9 +18,8 @@ Apply everything from Days 16–18 into real-world mini projects.
 3. Deletes `.gz` files older than 30 days
 4. Prints how many files were compressed and deleted
 5. Exits with an error if the directory doesn't exist
+<img width="972" height="964" alt="image" src="https://github.com/user-attachments/assets/c1051309-a3bd-4c74-9970-3d36e9d21646" />
 
-*[screenshot: log_rotate.sh script]*
-*[screenshot: log_rotate.sh output]*
 
 ---
 
@@ -34,8 +33,8 @@ Apply everything from Days 16–18 into real-world mini projects.
 5. Deletes backups older than 14 days from the destination
 6. Handles errors — exits if source doesn't exist
 
-*[screenshot: backup.sh script]*
-*[screenshot: backup.sh output]*
+<img width="524" height="866" alt="image" src="https://github.com/user-attachments/assets/4b9d746e-ace3-43c6-a757-a11fbbd1c397" />
+
 
 ---
 
@@ -54,7 +53,8 @@ Apply everything from Days 16–18 into real-world mini projects.
    ```
 3. Cron entries drafted (not applied):
 
-*[screenshot: crontab reference]*
+<img width="1141" height="553" alt="image" src="https://github.com/user-attachments/assets/15084f3b-2897-4735-a7fa-5ef72a87750a" />
+
 
 ```bash
 # log_rotate.sh — daily at 2 AM
@@ -79,8 +79,9 @@ Apply everything from Days 16–18 into real-world mini projects.
 3. Logs all output to `/var/log/maintenance.log` with timestamps
 4. Cron entry to run it daily at 1 AM
 
-*[screenshot: maintenance.sh script]*
-*[screenshot: maintenance.sh output]*
+<img width="696" height="540" alt="image" src="https://github.com/user-attachments/assets/dfd71512-8984-4a6b-b986-bf34434b276a" />
+
+<img width="1210" height="534" alt="image" src="https://github.com/user-attachments/assets/d9353545-df88-47b8-9886-200eac0329f0" />
 
 ---
 
