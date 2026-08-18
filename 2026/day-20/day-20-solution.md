@@ -75,18 +75,18 @@ Generate a summary report to a text file named `log_report_<date>.txt` (e.g., `l
 ## My Approach
 
 `log_analyzer.sh` takes a log file path as its only argument. It validates that the argument was passed and that the file exists, then exits early with a clear message otherwise. It uses `grep -c` for the error/failed count, `grep -n` for critical event extraction with line numbers, and a `grep | sort | uniq -c | sort -nr | head -5` pipeline to get the top 5 error messages. All of this is written to console and also redirected into a dated report file (`log_report_<date>.txt`) using the same values, so the console output and the report stay in sync.
+<img width="1311" height="435" alt="image" src="https://github.com/user-attachments/assets/ffb995ae-c463-4c2a-9225-c640a3865491" />
+<img width="1187" height="290" alt="image" src="https://github.com/user-attachments/assets/a4a30abc-bdf2-434f-a7f0-72082d7206c5" />
+<img width="664" height="75" alt="image" src="https://github.com/user-attachments/assets/33f0e895-a444-4597-84ee-dc678a624b98" />
 
-**Script run — console output:**
+<img width="777" height="840" alt="image" src="https://github.com/user-attachments/assets/0021cbd0-3b8f-4b29-b857-3cf7e922e271" />
 
-![log_analyzer output](https://github.com/user-attachments/assets/0c50077b-9e6c-4c04-b7f3-5f146406421a)
 
-**Generated report file:**
 
-![log_report file](https://github.com/user-attachments/assets/1f795b20-4c1c-44ee-a608-ed6d5d7b65d1)
 
-**Script source — `log_analyzer.sh`:**
 
-![log_analyzer.sh script](https://github.com/user-attachments/assets/859570f5-8d1d-4027-95b6-1a18bbac5726)
+
+
 
 ---
 
@@ -98,9 +98,7 @@ Add a feature to:
 
 **Implementation:** the script checks for `archive/` with `mkdir -p`, then `mv`s the processed log into it and prints a confirmation line after the report is generated.
 
-![archive feature output](https://github.com/user-attachments/assets/f11aebf4-5c56-4375-8f73-ded3b78a8acc)
 
-![archive directory confirmation](https://github.com/user-attachments/assets/e26855c9-312c-458b-9e1f-c5ebdbf81826)
 
 ---
 
