@@ -50,9 +50,9 @@ Tells the system which interpreter to use to run the script. Without it, the sys
 
 **Variables and quoting**
 ```bash
-NAME="Vishal D"
-echo $NAME     # expands but splits into words: Vishal D (two tokens)
-echo "$NAME"   # expands, preserved as a single value: Vishal D
+NAME="Titas Kundu"
+echo $NAME     # expands but splits into words: Titas Kundu (two tokens)
+echo "$NAME"   # expands, preserved as a single value: Titas Kundu
 echo '$NAME'   # no expansion — prints literally: $NAME
 ```
 
