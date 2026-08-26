@@ -9,7 +9,12 @@ Learning how to **undo mistakes** safely — one of Git's most important skills.
 
 Made 3 commits (A, B, C) and tested all three reset modes.
 
-*[screenshot: git reset --soft demo]*
+<img width="837" height="75" alt="image" src="https://github.com/user-attachments/assets/cf82d446-0c34-489c-b7ce-778039ae8361" />
+<img width="759" height="75" alt="image" src="https://github.com/user-attachments/assets/9abe85df-e12b-464c-a07b-c5d4c67607f9" />
+<img width="700" height="223" alt="image" src="https://github.com/user-attachments/assets/b2c8a017-c774-445e-babc-d1f62b85cab3" />
+<img width="841" height="125" alt="image" src="https://github.com/user-attachments/assets/3e19d5bf-7a7f-4f33-867c-e061daa06711" />
+<img width="814" height="110" alt="image" src="https://github.com/user-attachments/assets/36c31507-50d6-4f49-a7a3-ceaed595458a" />
+<img width="693" height="273" alt="image" src="https://github.com/user-attachments/assets/97a4a36e-b74d-40db-8529-07cffd8b721b" />
 
 **`git reset --soft HEAD~1`**
 Commit ID moved back one step, but changes stayed exactly as they were — still staged, ready to commit again.
@@ -18,8 +23,9 @@ Commit ID moved back one step, but changes stayed exactly as they were — still
 Commit ID moved back one step, changes still present locally — but **unstaged** this time.
 
 **Difference between `--soft` and `--mixed`:** with `--mixed`, changes land back in the working directory as unstaged; with `--soft`, changes stay staged (as if `git add .` was already run).
-
-*[screenshot: git reset --hard demo]*
+<img width="1011" height="151" alt="image" src="https://github.com/user-attachments/assets/1591e8d0-553e-433e-a1aa-49edd849cfb3" />
+<img width="824" height="93" alt="image" src="https://github.com/user-attachments/assets/3779c9fc-8812-4beb-8963-2b8cdadde3ad" />
+<img width="731" height="163" alt="image" src="https://github.com/user-attachments/assets/e2cddc22-c77b-4b06-8a81-d4992a6d36b3" />
 
 **`git reset --hard HEAD~1`**
 Both the commit ID *and* the local changes were removed entirely.
@@ -38,8 +44,9 @@ Both the commit ID *and* the local changes were removed entirely.
 ## Task 2: Git Revert — Hands-On
 
 Made 3 commits (X, Y, Z), reverted the middle one (Y).
+<img width="713" height="76" alt="image" src="https://github.com/user-attachments/assets/18e64705-eb77-4a85-aaf4-3361832c5cc3" />
+<img width="759" height="165" alt="image" src="https://github.com/user-attachments/assets/4152c39c-6dbf-41f4-afc2-a42123b998a4" />
 
-*[screenshot: git revert demo]*
 
 **`git reset` vs `git revert`:**
 - `reset` → deletes/rewrites history
