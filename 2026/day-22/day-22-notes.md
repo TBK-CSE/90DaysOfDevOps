@@ -70,8 +70,9 @@ Contains all repository data — history, config, objects, refs. If deleted, the
 
 **`git log --oneline` output:**
 
-*[screenshot: git log --oneline]*
+<img width="1078" height="997" alt="image" src="https://github.com/user-attachments/assets/77211f2f-d0ee-4ca3-be7e-721f2b768204" />
+
 
 **Exploring the `.git/` folder contents:**
+<img width="833" height="380" alt="image" src="https://github.com/user-attachments/assets/dccd23a0-6c76-4212-af65-c51162395440" />
 
-*[screenshot: inside .git folder]*
