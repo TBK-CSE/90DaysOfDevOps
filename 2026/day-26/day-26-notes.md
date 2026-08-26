@@ -29,11 +29,7 @@ Switching to the browser to create a PR, check an issue, or manage a repo breaks
 
 **Created and cloned a test repo — `test-gh-repo`:**
 
-*[screenshot: repo creation]*
-*[screenshot: repo clone]*
-*[screenshot: repo details]*
-*[screenshot: repo list]*
-*[screenshot: open in browser / delete repo]*
+
 
 ---
 
@@ -44,11 +40,6 @@ Switching to the browser to create a PR, check an issue, or manage a repo breaks
 3. View a specific issue by number
 4. Close an issue from the terminal
 
-*[screenshot: issue creation]*
-*[screenshot: issue list]*
-*[screenshot: view specific issue]*
-*[screenshot: issue details]*
-*[screenshot: issue closed]*
 
 **How `gh issue` fits into automation:**
 Useful whenever a workflow needs to programmatically create or close issues — e.g. a developer automating issue tracking as part of a script or pipeline.
@@ -62,12 +53,7 @@ Useful whenever a workflow needs to programmatically create or close issues — 
 3. View PR details — status, reviewers, checks
 4. Merge the PR from the terminal
 
-*[screenshot: branch + push]*
-*[screenshot: PR creation]*
-*[screenshot: PR list]*
-*[screenshot: PR details]*
-*[screenshot: PR status/checks]*
-*[screenshot: PR merge]*
+
 
 **Merge methods `gh pr merge` supports:**
 - Squash & merge
@@ -103,6 +89,7 @@ gh gist create file.txt
 ```
 
 ---
+<img width="1835" height="724" alt="image" src="https://github.com/user-attachments/assets/46ed36a5-d80a-406c-b0cb-9da888ced720" />
 
 ## Summary
 
