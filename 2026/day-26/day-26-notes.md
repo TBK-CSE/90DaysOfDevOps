@@ -28,7 +28,7 @@ Switching to the browser to create a PR, check an issue, or manage a repo breaks
 6. Delete the test repo afterward
 
 **Created and cloned a test repo — `test-gh-repo`:**
-
+<img width="1835" height="724" alt="image" src="https://github.com/user-attachments/assets/46ed36a5-d80a-406c-b0cb-9da888ced720" />
 
 
 ---
@@ -40,6 +40,7 @@ Switching to the browser to create a PR, check an issue, or manage a repo breaks
 3. View a specific issue by number
 4. Close an issue from the terminal
 
+<img width="1825" height="297" alt="image" src="https://github.com/user-attachments/assets/aeea71fc-ddc1-4b0b-82dd-1679b25b264d" />
 
 **How `gh issue` fits into automation:**
 Useful whenever a workflow needs to programmatically create or close issues — e.g. a developer automating issue tracking as part of a script or pipeline.
@@ -61,6 +62,8 @@ Useful whenever a workflow needs to programmatically create or close issues — 
 - Rebase
 
 ---
+<img width="1435" height="851" alt="image" src="https://github.com/user-attachments/assets/f7eacc06-52f4-46be-b126-7ba2500197f5" />
+
 
 ## Task 5: GitHub Actions & Workflows (Preview)
 
@@ -70,6 +73,7 @@ Useful whenever a workflow needs to programmatically create or close issues — 
 **How `gh run` / `gh workflow` help in CI/CD:**
 - Checking CI/CD status directly from the terminal
 - Debugging pipeline failures without switching to the browser
+<img width="592" height="75" alt="image" src="https://github.com/user-attachments/assets/73f6de45-0501-4aac-b30b-63cb5ed7aa39" />
 
 ---
 
@@ -87,9 +91,11 @@ Explored:
 gh search repos devops
 gh gist create file.txt
 ```
+<img width="1834" height="659" alt="image" src="https://github.com/user-attachments/assets/d27dbab2-0c57-4128-b81e-af790742faf1" />
+![Uploading image.png…]()
 
 ---
-<img width="1835" height="724" alt="image" src="https://github.com/user-attachments/assets/46ed36a5-d80a-406c-b0cb-9da888ced720" />
+
 
 ## Summary
 
