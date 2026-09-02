@@ -43,7 +43,8 @@ Build a Dockerfile using all of:
 - `EXPOSE` — document the port
 - `CMD` — default command
 
-*[screenshot: full Dockerfile with all instructions]*
+<img width="889" height="949" alt="image" src="https://github.com/user-attachments/assets/d01995b6-42d4-48a7-b428-0128209471c9" />
+
 
 **Instruction reference:**
 | Instruction | Purpose |
