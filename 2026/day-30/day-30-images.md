@@ -18,7 +18,8 @@ Understand how images and containers actually work.
 4. Inspect an image
 5. Remove an unneeded image
 
-*[screenshot: pulled images and sizes]*
+<img width="921" height="685" alt="image" src="https://github.com/user-attachments/assets/d69bd72d-d1d2-40e3-8e35-6df6286364fe" />
+
 
 **Observation:** `nginx` had the largest disk usage and size among the three.
 
@@ -28,8 +29,7 @@ Understand how images and containers actually work.
 
 **`docker inspect nginx`** — showed layers, config, environment, ports, OS, architecture, and metadata.
 
-*[screenshot: docker inspect output]*
-
+<img width="1034" height="967" alt="image" src="https://github.com/user-attachments/assets/ef954c67-c93f-4778-b43f-147ff0f0ff4a" />
 ---
 
 ## Task 2: Image Layers
@@ -38,7 +38,8 @@ Understand how images and containers actually work.
 2. Each line is a **layer**; some show sizes, some show `0B`
 3. What are layers, and why does Docker use them?
 
-*[screenshot: docker image history output]*
+<img width="1074" height="414" alt="image" src="https://github.com/user-attachments/assets/ba0a4758-1b54-411f-b22e-69c216ceb034" />
+
 
 **Layers:**
 - Represent incremental changes on top of a base image
@@ -71,8 +72,9 @@ Full lifecycle practiced on one container:
 8. **Remove**
 
 `docker ps -a` checked after each step to observe state changes.
+<img width="1018" height="850" alt="image" src="https://github.com/user-attachments/assets/5cf86e1b-a8c9-41b1-bfe7-d1befaaffeb3" />
 
-*[screenshot: full lifecycle walkthrough]*
+
 
 ---
 
@@ -85,7 +87,12 @@ Full lifecycle practiced on one container:
 5. Run a single command inside without entering the container
 6. Inspect the container — IP address, port mappings, mounts
 
-*[screenshot: logs, exec, and inspect output]*
+<img width="747" height="191" alt="image" src="https://github.com/user-attachments/assets/64374b63-8793-4bdc-aaff-15a3ca093d6a" />
+<img width="931" height="361" alt="image" src="https://github.com/user-attachments/assets/8b931f66-b36a-4fcc-b7ad-5177b815939e" />
+<img width="638" height="474" alt="image" src="https://github.com/user-attachments/assets/71e067f1-6d0a-445b-81f4-481d042f09d6" />
+<img width="886" height="154" alt="image" src="https://github.com/user-attachments/assets/91209efb-f209-4fb5-ae90-83f603d05515" />
+
+
 
 ---
 
@@ -95,11 +102,11 @@ Full lifecycle practiced on one container:
 2. Remove all stopped containers in one command
 3. Remove unused images
 4. Check Docker's total disk usage
+<img width="1022" height="173" alt="image" src="https://github.com/user-attachments/assets/ed7a14ee-fa45-47f4-b023-93d4fb6dbbc0" />
+<img width="747" height="113" alt="image" src="https://github.com/user-attachments/assets/fc6e94b2-866f-4924-b43f-31ddbd0a7583" />
+<img width="945" height="529" alt="image" src="https://github.com/user-attachments/assets/c7c62154-2749-4a12-ae16-c6b8badaa943" />
+<img width="640" height="175" alt="image" src="https://github.com/user-attachments/assets/f2b55718-2c64-432f-9f96-e22b5918dc50" />
 
-*[screenshot: stop all containers]*
-*[screenshot: remove stopped containers]*
-*[screenshot: remove unused images]*
-*[screenshot: docker disk usage]*
 
 ---
 
