@@ -95,7 +95,12 @@ docker run image-name hello
 3. Build and tag as `my-website:v1`
 4. Run with port mapping, access via browser
 
-*[screenshot: Dockerfile and running website]*
+<img width="1004" height="903" alt="image" src="https://github.com/user-attachments/assets/29dcebb6-569d-48df-b4a0-48cc3e04e2fd" />
+<img width="1004" height="903" alt="image" src="https://github.com/user-attachments/assets/62a001ae-426e-4fce-8186-47c2c68fe758" />
+<img width="1832" height="1012" alt="image" src="https://github.com/user-attachments/assets/738b0a70-133b-42ab-a444-da03c00f0b90" />
+
+
+
 
 ---
 
