@@ -29,6 +29,7 @@ CMD ["echo", "THIS IS CUSTOM DOCKERFILE"]
 docker build -t my-ubuntu:v1 .
 docker run my-ubuntu:v1
 ```
+<img width="881" height="363" alt="image" src="https://github.com/user-attachments/assets/18b227b8-d1e2-4042-8954-fe8ff568c8fb" />
 
 ---
 
