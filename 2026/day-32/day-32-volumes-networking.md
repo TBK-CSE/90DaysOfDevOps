@@ -92,7 +92,8 @@ Edited `index.html` (added "part 2" at the end), saved — change reflected imme
 4. Can they ping each other by **IP**?
 <img width="615" height="97" alt="image" src="https://github.com/user-attachments/assets/d05aa017-ab3d-4aba-88c9-ad8c1bd44eeb" />
 
-<img width="927" height="909" alt="image" src="https://github.com/user-attachments/assets/778276ca-b8aa-4e05-99b7-79a6da893420" />
+<img width="945" height="438" alt="image" src="https://github.com/user-attachments/assets/cc381703-87e0-4bf2-bda9-8509aa1f9a5c" />
+
 
 
 ```bash
