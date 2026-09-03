@@ -19,7 +19,8 @@ Containers are ephemeral — they lose data when removed. And by default, contai
 
 Created a table and inserted data successfully.
 
-*[screenshot: data gone after container re-creation]*
+<img width="1208" height="267" alt="image" src="https://github.com/user-attachments/assets/b2ae1a4c-58e1-4cc4-afd2-2e510dfdfc9c" />
+
 
 After re-creating the same image, all data was lost — the data was never persisted anywhere outside the container itself.
 
