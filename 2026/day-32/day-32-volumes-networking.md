@@ -43,8 +43,10 @@ After re-creating the same image, all data was lost — the data was never persi
 
 Data was still there — even after fully re-creating the container — because it was written to the mounted volume, not the container's own filesystem.
 
-*[screenshot: data persisted after container re-creation]*
-*[screenshot: docker volume inspect output]*
+<img width="1650" height="504" alt="image" src="https://github.com/user-attachments/assets/439e4e82-5170-491d-ab64-f09d6f6f885d" />
+
+<img width="855" height="226" alt="image" src="https://github.com/user-attachments/assets/fa0d42dd-e265-403d-a5ff-d75cfb2a12b2" />
+
 
 **Key insight:**
 - The **container** thinks it's storing data at `/var/lib/postgresql`
