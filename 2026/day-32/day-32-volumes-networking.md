@@ -118,8 +118,10 @@ docker run -dit --name c2 ubuntu
 2. Run two containers on it
 3. Can they ping each other by name now?
 
-*[screenshot: successful name-based ping on custom network]*
-*[screenshot: commands used]*
+<img width="819" height="264" alt="image" src="https://github.com/user-attachments/assets/6e5010c1-e1bc-4025-8b76-15d1788b33e1" />
+<img width="708" height="289" alt="image" src="https://github.com/user-attachments/assets/f3901bb8-82b4-4f29-b27b-c423d3705daf" />
+<img width="984" height="336" alt="image" src="https://github.com/user-attachments/assets/edd216a4-58b5-4aab-9290-fe32ed503a67" />
+
 
 **Result:** name-based ping worked once containers were placed on the custom network.
 
