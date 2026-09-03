@@ -63,12 +63,16 @@ That host-side location is where the data truly lives — not inside the contain
 3. Access the page in browser
 4. Edit `index.html` on the host, refresh browser
 
-*[screenshot: bind mount setup]*
-*[screenshot: page output in browser]*
+<img width="1270" height="95" alt="image" src="https://github.com/user-attachments/assets/5e532835-8b2a-4d6f-a8ca-c9fe9df8ff29" />
+<img width="1383" height="289" alt="image" src="https://github.com/user-attachments/assets/387221d8-424b-417c-bea6-167a16111c42" />
+
 
 Edited `index.html` (added "part 2" at the end), saved — change reflected immediately on refresh.
 
-*[screenshot: live-edited page]*
+<img width="1281" height="126" alt="image" src="https://github.com/user-attachments/assets/f9535279-bb39-4b13-8def-a4b3d3a69c1d" />
+<img width="1119" height="257" alt="image" src="https://github.com/user-attachments/assets/6f86d9f4-7ce8-4248-a714-7b1eae7f626f" />
+
+
 
 **Named volume vs bind mount:**
 - **Named volume** → managed entirely by Docker
