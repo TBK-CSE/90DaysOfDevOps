@@ -38,7 +38,8 @@ After re-creating the same image, all data was lost — the data was never persi
 
 **Verify with:** `docker volume ls`, `docker volume inspect`
 
-*[screenshot: volume creation and attachment]*
+<img width="882" height="406" alt="image" src="https://github.com/user-attachments/assets/f3b2b145-a610-4e51-a4c6-b5a0b7d6a996" />
+
 
 Data was still there — even after fully re-creating the container — because it was written to the mounted volume, not the container's own filesystem.
 
