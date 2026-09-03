@@ -140,8 +140,11 @@ docker run -dit --name c2 ubuntu
 3. Run an app container on the same network
 4. Verify the app container can reach the database by name
 
-*[screenshot: successful ping from app container to db container by name]*
-*[screenshot: commands used]*
+<img width="1072" height="967" alt="image" src="https://github.com/user-attachments/assets/de222452-d73f-4816-9ea4-093057963797" />
+<img width="925" height="184" alt="image" src="https://github.com/user-attachments/assets/3f133ebe-1e96-4c3f-a2e2-429dc46f4c7c" />
+<img width="967" height="284" alt="image" src="https://github.com/user-attachments/assets/71dbde2b-773e-4701-b945-6b439adf5ef2" />
+<img width="1382" height="127" alt="image" src="https://github.com/user-attachments/assets/5532f2bc-dbb9-472a-800d-f7b4251f51df" />
+
 
 Successfully pinged from an Ubuntu container to a Postgres container named `db`, purely by container name.
 
