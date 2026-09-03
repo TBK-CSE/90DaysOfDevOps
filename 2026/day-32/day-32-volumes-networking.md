@@ -14,7 +14,8 @@ Containers are ephemeral — they lose data when removed. And by default, contai
 3. Stop and remove the container
 4. Run a new one — is the data still there?
 
-*[screenshot: table created with data]*
+<img width="923" height="1003" alt="image" src="https://github.com/user-attachments/assets/477fb01e-3954-4489-a126-e05b398671ef" />
+
 
 Created a table and inserted data successfully.
 
