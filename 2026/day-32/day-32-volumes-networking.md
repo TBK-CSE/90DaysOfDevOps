@@ -101,11 +101,12 @@ docker run -dit --name c1 ubuntu
 docker run -dit --name c2 ubuntu
 ```
 
-*[screenshot: ping attempt — ping not installed]*
+<img width="912" height="170" alt="image" src="https://github.com/user-attachments/assets/61e025c5-e4dd-435f-8fd7-abb6b1a196d5" />
 
 `ping` wasn't installed initially — installed it inside the containers first.
 
-*[screenshot: ping working by IP, failing by name]*
+<img width="782" height="934" alt="image" src="https://github.com/user-attachments/assets/62ba8dc7-55a9-4cca-a08b-631270c81776" />
+
 
 **Result:** pinging by IP worked; pinging by container name did not, on the default bridge network.
 
