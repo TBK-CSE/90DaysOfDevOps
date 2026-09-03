@@ -90,9 +90,10 @@ Edited `index.html` (added "part 2" at the end), saved — change reflected imme
 2. Inspect the default `bridge` network
 3. Run two containers on the default bridge — can they ping each other by **name**?
 4. Can they ping each other by **IP**?
+<img width="615" height="97" alt="image" src="https://github.com/user-attachments/assets/d05aa017-ab3d-4aba-88c9-ad8c1bd44eeb" />
 
-*[screenshot: docker network ls]*
-*[screenshot: docker network inspect bridge]*
+<img width="927" height="909" alt="image" src="https://github.com/user-attachments/assets/778276ca-b8aa-4e05-99b7-79a6da893420" />
+
 
 ```bash
 docker run -dit --name c1 ubuntu
