@@ -111,6 +111,7 @@ if __name__ == "__main__":
 3. Used `depends_on` with `condition: service_healthy` — app waits for the DB to be truly ready, not just "started"
 
 **Result:** confirmed — the web service now waits until the database passes its healthcheck before starting (see Task 1's compose file for the exact config).
+<img width="1689" height="578" alt="image" src="https://github.com/user-attachments/assets/ed9556d4-64c0-44a0-87fc-4a8db75f4563" />
 
 ---
 
