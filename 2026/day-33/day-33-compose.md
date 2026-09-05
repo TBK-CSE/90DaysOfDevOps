@@ -81,12 +81,15 @@ services:
 volumes:
   db_data:
 ```
+<img width="1853" height="601" alt="image" src="https://github.com/user-attachments/assets/684a0d40-0d77-4db8-852b-cb199f0140ea" />
+<img width="1850" height="701" alt="image" src="https://github.com/user-attachments/assets/cd678bb7-2c8a-4b4e-b7bd-df7b38d6005e" />
 
-*[screenshot: WordPress application UI]*
+
 
 **Verified persistence:** stopped and restarted with `docker compose down` + `docker compose up` — WordPress data was still there.
 
-*[screenshot: data persisted after restart]*
+<img width="1849" height="617" alt="image" src="https://github.com/user-attachments/assets/cae58e32-899c-46c9-b3d9-01e6a095fa9d" />
+
 
 ---
 
