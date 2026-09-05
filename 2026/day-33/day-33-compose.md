@@ -34,10 +34,9 @@ services:
     ports:
       - "8080:80"
 ```
-
-*[screenshot: docker compose up output]*
-*[screenshot: Nginx page in browser]*
-*[screenshot: docker compose down output]*
+<img width="1840" height="673" alt="image" src="https://github.com/user-attachments/assets/c3b57976-a3de-4bab-a9ab-a7a28acb2758" />
+<img width="1591" height="607" alt="image" src="https://github.com/user-attachments/assets/d41a3f7e-c780-43ab-b6bf-d6ca884160c5" />
+<img width="755" height="107" alt="image" src="https://github.com/user-attachments/assets/8445cca0-1b4b-43c3-a37a-6d2bef0719b1" />
 
 ---
 
