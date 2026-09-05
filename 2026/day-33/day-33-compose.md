@@ -113,6 +113,12 @@ volumes:
 1. Added environment variables directly in `docker-compose.yml`
 2. Created a `.env` file, referenced its variables from the compose file
 3. Verified the variables were picked up correctly
+   <img width="690" height="148" alt="image" src="https://github.com/user-attachments/assets/e331c5fe-f4d1-419a-a314-26c8e68f6809" />
+   <img width="943" height="615" alt="image" src="https://github.com/user-attachments/assets/f13561a3-6e49-41e5-81bf-a39a3204d4e4" />
+   <img width="978" height="941" alt="image" src="https://github.com/user-attachments/assets/e676c157-896d-4713-9b53-43dfa0691e99" />
+
+
+
 
 *[screenshot: .env file contents]*
 *[screenshot: compose file referencing .env variables]*
