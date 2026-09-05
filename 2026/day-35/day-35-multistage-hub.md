@@ -155,8 +155,8 @@ EXPOSE 8080
 
 CMD ["/server"]
 
-
+                        
 ```
 
 
-**Result:** image size came down to **237MB** — not multi-stage this time, but with the added security of a non-root user and a minimal base.
+**Result:** image size came down to **13MB** — not multi-stage this time, but with the added security of a non-root user and a minimal base.
