@@ -10,8 +10,14 @@ Build more complex, production-like setups with Docker Compose. Yesterday was ba
 - **Web app** — Python Flask
 - **Database** — Postgres
 - **Cache** — Redis
+<img width="765" height="131" alt="image" src="https://github.com/user-attachments/assets/9543f8a0-3455-4a8d-b52d-c4f62a401366" />
 
-*[screenshot: application running]*
+<img width="872" height="373" alt="image" src="https://github.com/user-attachments/assets/2fcbccbb-4ccc-4841-a99f-c6c7f71df194" />
+
+<img width="1349" height="1008" alt="image" src="https://github.com/user-attachments/assets/d686b4e9-0dac-486c-b8c0-921ac9388617" />
+
+<img width="1617" height="308" alt="image" src="https://github.com/user-attachments/assets/0cef73d4-7fc6-4017-b40e-9baabefe41ca" />
+
 
 **`docker-compose.yml`:**
 ```yaml
@@ -67,17 +73,30 @@ CMD ["python", "app.py"]
 ```
 
 **`app.py`:**
-```python
+```import os, time
 from flask import Flask
 import psycopg2
 import redis
-import time
 
 app = Flask(__name__)
 
+def get_db():
+    return psycopg2.connect(
+        host="db", dbname="appdb", user="appuser", password="apppass"
+    )
+
+r = redis.Redis(host="cache", port=6379, decode_responses=True)
+
 @app.route("/")
-def home():
-    return "Hello from Vishal 🚀"
+def hello():
+    conn = get_db()
+    cur = conn.cursor()
+    cur.execute("SELECT version();")
+    db_version = cur.fetchone()[0]
+    conn.close()
+
+    hits = r.incr("hits")
+    return f"Hello! DB says: {db_version[:30]}... | Redis hits: {hits}"
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
