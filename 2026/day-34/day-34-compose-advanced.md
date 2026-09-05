@@ -21,46 +21,58 @@ Build more complex, production-like setups with Docker Compose. Yesterday was ba
 
 **`docker-compose.yml`:**
 ```yaml
-version: "3.8"
-
 services:
-    db:
-      image: postgres
-      restart: always
-      environment:
-          POSTGRES_USER: user
-          POSTGRES_PASSWORD: pass
-          POSTGRES_DB: mydb
-      volumes:
-        - db_data:/var/lib/postgresql
-      networks:
-        - app-net
-      healthcheck:
-        test: ["CMD-SHELL", "pg_isready -U user"]
-        interval: 5s
-        timeout: 5s
-        retries: 5
+  web:
+    build: ./app
+    ports:
+      - "5000"
+    depends_on:
+      db:
+        condition: service_healthy
+      cache:
+        condition: service_started
+    networks:
+      - frontend
+      - backend
+    labels:
+      com.example.service: "web"
+      com.example.tier: "app"
 
-    redis:
-        image: redis
-        networks:
-          - app-net
+  db:
+    image: postgres:16
+    restart: always
+    environment:
+      POSTGRES_DB: appdb
+      POSTGRES_USER: appuser
+      POSTGRES_PASSWORD: apppass
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U appuser -d appdb"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    networks:
+      - backend
+    labels:
+      com.example.service: "db"
+      com.example.tier: "data"
 
-    web:
-      build: ../app
-      ports:
-        - "5000:5000"
-      depends_on:
-        db:
-          condition: service_healthy
-      networks:
-        - app-net
+  cache:
+    image: redis:7
+    networks:
+      - backend
+    labels:
+      com.example.service: "cache"
+      com.example.tier: "data"
+
+networks:
+  frontend:
+  backend:
 
 volumes:
   db_data:
 
-networks:
-  app-net:
 ```
 
 **`Dockerfile`:**
@@ -165,6 +177,9 @@ volumes:
 ```
 docker compose up --scale web=3
 ```
+<img width="791" height="939" alt="image" src="https://github.com/user-attachments/assets/3e7e98fc-90cf-42d6-9229-31b06dd99134" />
+<img width="1574" height="290" alt="image" src="https://github.com/user-attachments/assets/e5d26596-979b-4cc0-ba1a-be03ff9d6536" />
+
 
 **Problem:** port conflict — `5000` already bound.
 
