@@ -81,7 +81,8 @@ services:
 volumes:
   db_data:
 ```
-<img width="1853" height="601" alt="image" src="https://github.com/user-attachments/assets/684a0d40-0d77-4db8-852b-cb199f0140ea" />
+<img width="882" height="569" alt="image" src="https://github.com/user-attachments/assets/8086f1be-a14d-4598-9a3e-2baa9a886d81" />
+
 <img width="1850" height="701" alt="image" src="https://github.com/user-attachments/assets/cd678bb7-2c8a-4b4e-b7bd-df7b38d6005e" />
 
 
