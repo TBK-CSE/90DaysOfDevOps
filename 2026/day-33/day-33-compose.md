@@ -13,7 +13,8 @@ Checked Docker Compose availability and version:
 ```
 docker compose version
 ```
-**Output:** Docker Compose version v5.1.3
+**Output:** <img width="465" height="78" alt="image" src="https://github.com/user-attachments/assets/eea5b142-4c14-4208-91ff-fd2735a9ad81" />
+
 
 ---
 
